@@ -1,0 +1,66 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;500&display=swap');
+
+body{
+    font-family: 'Noto Sans Thai';
+} */
+/* .App {
+    margin-left: 5%;
+    margin-right: 5%;
+} */
+.navigation {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0rem;
+    background-color: #1B79DB;
+    color: #fff;
+    box-shadow: 0 2px 2px 2px rgba(130, 130, 130, 0.18);
+}
+
+.brand-name {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    margin-left: 16px;
+    font-weight: 700;
+}
+
+.navigation-menu {
+    margin-left: 100px;
+}
+
+.name-menu {
+    color: #ffffff;
+    margin-right: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.name-menu:hover {
+    color: #c2c2c2;
+    font-weight: 500;
+}
+
+.navigation-menu ul {
+    display: flex;
+    padding: 0;
+}
+
+.navigation-menu li {
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+.navigation-menu li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.test-box {
+    width: 90%;
+    background-color: tan;
+}

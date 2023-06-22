@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;500;600&display=swap');
+
+body{
+    font-family: 'Noto Sans Thai';
+}
+.Table {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.title{
+    flex-flow: row;
+    margin-top: 40px;
+}
+.container {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem;
+  }
+
+.App {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.edite-btn {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+    border-radius: 10px !important;
+    color: #fff;
+    background-color: #1B79DB !important;
+}
+.see-btn {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+    /* border: #000 !important; */
+    border-radius: 10px !important;
+    color: #fff;
+    /* background-color: #1B79DB !important; */
+}
+.reset-btn{
+    width: 20%;
+    height: 50px;
+    margin-top: -50px; 
+    margin-left: 55%;
+    margin-right: 4%;
+    margin-bottom: 5%; 
+    float: right;
+    border: none !important;
+    border-radius: 10px !important;
+    background-color: #EF4665 !important;
+}
+
+.delete-btn {
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 4%;
+    margin-bottom: 5%;
+    border: 2px solid #EF4665 !important;
+    border-radius: 10px !important;
+    color: #EF4665;
+    background-color: #fff !important;
+}
+
+.create-title {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.card-title{
+    background-color: #76B9FF;
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: center;
+}
+.input {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+}
